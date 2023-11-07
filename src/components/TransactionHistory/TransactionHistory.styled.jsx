@@ -37,16 +37,6 @@ export const ExtendedTr = styled(Tr)`
     props.idx % 2 === 0 ? props.theme.colors.muted : 'transparent'};
 `;
 
-// :nth-child(even) {
-//     background-color: #e9edff;
-//   }
-
-//   :nth-child(odd) {
-//     border: 0.1875rem solid #e9edff;
-//     border-radius: 0.5rem;
-//     background-color: transparent;
-//   }
-
 export const Th = styled.th`
   padding: 0.5rem 0;
   padding-left: ${props => props.theme.space[4]}px;
